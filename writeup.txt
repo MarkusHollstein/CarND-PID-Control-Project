@@ -1,3 +1,7 @@
 Writeup for PID-Project:
 
-I used the formula from the lessons for the pid-controler. The values for the parameters are set in Init (line 37). I determined them manually trying to find the best compromise between preventing oscilation (by increasing the d-parameter and decreasing the p-parameter) and keeping the car on track (especially in turns) which requiers not too small values for the p-parameter. The i-parameter did not have much influence as long as it was chosen small (it seems that systematic bias is not really a problem here, because it worked alright even when the i-parameter was set to zero).
+I used the formula from the lessons for the pid-controler. The values for the parameters are set in Init (line 37).
+I determined them manually trying to find the best compromise between preventing oscilation (by increasing the d-parameter 
+and decreasing the p-parameter) and keeping the car on track (especially in turns) which requiers not too small values for the
+p-parameter. The i-parameter did not have much influence as long as it was chosen small (it seems that systematic bias is not
+really a problem here, because it worked alright even when the i-parameter was set to zero).
